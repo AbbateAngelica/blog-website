@@ -445,6 +445,50 @@ a:active {
     .footer__social a:hover, .footer__social a:active {
       color: #ccc; }
 
+.attribution-popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2500;
+  background-color: rgba(0, 0, 0, 0.55); }
+  .attribution-popup__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 640px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 8px; }
+    .attribution-popup__box p {
+      font-size: 18px;
+      font-weight: 400;
+      color: #000;
+      text-align: center;
+      line-height: 1.4;
+      margin-bottom: 15px; }
+    .attribution-popup__box a:link, .attribution-popup__box a:visited {
+      color: #40b8d6;
+      font-weight: 700; }
+    .attribution-popup__box a:hover, .attribution-popup__box a:active {
+      color: #248ca6;
+      font-weight: 700; }
+    .attribution-popup__box button {
+      background-color: #40b8d6;
+      color: #FFF;
+      border: none;
+      display: block;
+      margin: 0 auto;
+      padding: 6px 10px;
+      cursor: pointer;
+      -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+      font-size: 18px; }
+
 @media (max-width: 900px) {
   .grid-photo > div {
     -webkit-box-flex: 1;
